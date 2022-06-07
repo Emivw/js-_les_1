@@ -161,9 +161,9 @@ let bestFriends = ['Ethan',
 ]
 
 // console.log(bestFriends[4].concat(' ', bestFriends[9]));
-let middle = bestFriends[bestFriends.length - 1];
+let last = bestFriends[bestFriends.length - 1];
 
-let last = bestFriends[bestFriends.length / 2];
+let middle = bestFriends[bestFriends.length / 2];
 console.log(middle, last);
 
 
