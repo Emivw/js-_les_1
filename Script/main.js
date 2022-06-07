@@ -93,22 +93,78 @@ let, var, const, use variables name
 // console.log("my name is ".concat(
 //     firstName, " and my second name is ", secondName, " and my age is ", age));
 
-// calculate salary
-var salary = '9';
-var rate = '10';
-console.log(salary ** rate);
+// // calculate salary
+// var salary = '9';
+// var rate = '10';
+// console.log(salary ** rate);
 
-function toggleText() {
+// function toggleText() {
 
-    var text = document.getElementById("submit", "reset");
-    console.log(text);
-}
+//     var text = document.getElementById("submit", "reset");
+//     console.log(text);
+// }
 
+// let age = 18;
+// let salary = 5000;
+// let bonus = 600;
+// // if (age >= 18 && (salary >= 5000)) {
+// //     salary += bonus;
+// //     console.log('your salary: R'.concat(salary));
 
+// // } else {
+// //     console.log('Please try again later');
+// // }
+// if (age >= 18) {
+//     if (salary >= 5000) {
+//         salary += bonus;
+//         console.log('your salary: R'.concat(salary));
+//     } else {
+//         console.log('Salary must be greater than 5000');
+//     }
+// } else {
+//     console.log('you need to be at least 18 years old');
+// }
 
+// Collection
+// let items = ['Banana',
+//     'Mango',
+//     'Orange',
+//     'Laptop',
+//     'Mouse',
+//     'Keyboard'
+// ];
+// Linking
+// let ul = document.getElementById('items');
+// // Load items to an ul
+// items.forEach((e) => {
+//     ul.innerHTML += `
+//     <li class='bgDarkCyan'>${e}</li>
+//     `;
+//     ul
+// });
+// items.forEach(
+//     display);
 
+// function display(e) {
+//     console.log(e);
+// }
+let bestFriends = ['Ethan',
+    'Hadan',
+    'Atarah',
+    'Tommmy',
+    'Barett',
+    'malancholy',
+    'Cranberry',
+    'Samsonite',
+    'Alixandrea',
+    'Venom'
+]
 
+// console.log(bestFriends[4].concat(' ', bestFriends[9]));
+let middle = bestFriends[bestFriends.length - 1];
 
+let last = bestFriends[bestFriends.length / 2];
+console.log(middle, last);
 
 
 
